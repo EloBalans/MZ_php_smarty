@@ -1,7 +1,4 @@
 <?php
-
-namespace core;
-
 class Config{
 	public $root_path;
 	public $server_name;
