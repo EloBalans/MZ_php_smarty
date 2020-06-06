@@ -1,11 +1,11 @@
 <!doctype html>
-{extends file=$conf->root_path|cat:"/templates/main.tpl"}
+{extends file=$conf->root_path|cat:"/app/View/templates/main.tpl"}
 
     
 {block name=content}
 
 
-<div style="margin: 50px 45%">
+<div style="margin: 60px 45%">
 <form class="pure-form pure-form-stacked" action="{$conf->action_root}calcProcess" method="post">
 	<fieldset>
 		<label for="value">Liczba w złotówkach: </label>
